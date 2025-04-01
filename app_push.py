@@ -6,7 +6,7 @@ import requests
 app = Flask(__name__)
 
 # 從環境變數取得 LINE access token
-CHANNEL_ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN", "你的 Channel Access Token")
+CHANNEL_ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN", "QuYgSEeRhgixlG463SUEPex6LYs8gyg/ww8kGLEn+elpT3uURIYdDfktgty06X4oPKQjL+9DhCR2OHORTyVcbxzTZgzY3TblmTb/x9kPolAAWh43jRhj9kRaIFJ96mHa6Elbm+HTAU+CoBOvFRdFtAdB04t89/1O/w1cDnyilFU=")
 
 @app.route("/", methods=["GET"])
 def keep_alive():
