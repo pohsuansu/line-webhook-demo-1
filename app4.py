@@ -36,7 +36,7 @@ def webhook():
             print("📩 收到訊息，使用者 ID:", user_id)
 
             # 推播訊息
-            message = "✅ 這是 push 測試訊息（debug 版）"
+            message = "✅ 歡迎加入推播"
             res = push_message(user_id, message)
 
             print("📤 Push 狀態碼:", res.status_code)
